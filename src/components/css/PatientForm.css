@@ -1,0 +1,37 @@
+
+.patient-form {
+  display: flex;
+  gap: 10px;
+  background-color: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.patient-form input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.patient-form button {
+  background-color: #2879cb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.patient-form button:hover {
+  background-color: #1765ad;
+}
+
+@media (max-width: 650px) {
+  .patient-form {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,41 @@
+
+.patient-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f3f6fc;
+  padding: 12px;
+  margin-top: 10px;
+  border-left: 4px solid #2879cb;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.patient-card strong {
+  color: #263445;
+}
+
+.patient-card span {
+  color: #555;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}
+
+@media (max-width: 650px) {
+  .patient-card {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
